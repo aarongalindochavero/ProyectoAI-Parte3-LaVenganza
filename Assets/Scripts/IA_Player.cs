@@ -33,6 +33,7 @@ public class IA_Player : AbstactPlayer
         else
         {
             Debug.Log("CPU win");
+            Application.Quit();
         }
     }
 }

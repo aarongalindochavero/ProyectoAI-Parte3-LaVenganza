@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/AStar.unity
+    guid: 1b899b5e4436d4c4c8e9d34583e7475a
+  - enabled: 1
+    path: Assets/Scenes/Djikstra.unity
+    guid: e720291a1f79ca7428d287d23c5a7cd4
+  - enabled: 1
+    path: Assets/Scenes/HilClimb.unity
+    guid: dbe639b48b433184e9edc9aa8fd4093c
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 8329900e0d4f85c4a926e1d7bd2a3d99
   m_configObjects: {}

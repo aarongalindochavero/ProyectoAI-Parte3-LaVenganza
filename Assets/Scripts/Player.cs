@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Player : AbstactPlayer
 {
     // Start is called before the first frame update
@@ -20,7 +20,9 @@ public class Player : AbstactPlayer
     {
         if (nodoActual.getData() == endData)
         {
+
             Debug.Log("Fin");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
         if (Input.GetKeyDown("1") && nodoActual.adyacentes.Count > 0)
